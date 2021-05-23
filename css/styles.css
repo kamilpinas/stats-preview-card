@@ -1,0 +1,75 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Pen-specific styles */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    background: hsl(233, 47%, 7%);
+    font-family: 'Inter';
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: auto;
+}
+
+.center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.bg-left {
+    background: hsl(244, 38%, 16%);
+}
+
+.bg-right {
+    background: hsl(277, 64%, 61%);
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .mobile-margins {
+        margin: 10% 5%;
+    }
+    .row {
+        text-align: center;
+    }
+}
